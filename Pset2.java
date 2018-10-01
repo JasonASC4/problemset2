@@ -11,7 +11,7 @@ public class Pset2 {
 	}
 
 	public void sayHello() {
-		System.out.println("Enter First and Last Name!");
+		System.out.println("Enter First and Last Name:");
 		Scanner in = new Scanner(System.in);
 		String text = in.nextLine();
 		System.out.println();
@@ -20,45 +20,45 @@ public class Pset2 {
 
 	public void gradeMe() {
 		System.out.println();
-		System.out.println("Enter Your Homework Grade!");
+		System.out.println("Enter your homework grade:");
 		Scanner in = new Scanner(System.in);
 		float grade = in.nextFloat();
 		System.out.println();
 
-		System.out.println("Enter Your Homework Grade!");
+		System.out.println("Enter your homework grade:");
 		Scanner in1 = new Scanner(System.in);
 		float grade1 = in1.nextFloat();
 		System.out.println();
 
-		System.out.println("Enter Your Homework Grade!");
+		System.out.println("Enter your homework grade:");
 		Scanner in11 = new Scanner(System.in);
 		float grade2 = in11.nextFloat();
 		System.out.println();
 
-		System.out.println("Enter Your Quiz Grade!");
+		System.out.println("Enter your quiz grade:");
 		Scanner in111 = new Scanner(System.in);
 		float grade3 = in111.nextFloat();
 		System.out.println();
 
-		System.out.println("Enter Your Quiz Grade!");
+		System.out.println("Enter your quiz grade:");
 		Scanner in1111 = new Scanner(System.in);
 		float grade4 = in1111.nextFloat();
 		System.out.println();
 
-		System.out.println("Enter Your Quiz Grade!");
+		System.out.println("Enter your quiz grade:");
 		Scanner in11111 = new Scanner(System.in);
 		float grade5 = in11111.nextFloat();
 		System.out.println();
 
-		System.out.println("Enter Your Test Grade!");
+		System.out.println("Enter your test grade:");
 		Scanner in111111 = new Scanner(System.in);
 		float grade6 = in111111.nextFloat();
 
-		System.out.println("Enter Your Test Grade!");
+		System.out.println("Enter your test grade:");
 		Scanner in1111111 = new Scanner(System.in);
 		float grade7 = in1111111.nextFloat();
-
-		System.out.println("Enter Your Test Grade!");
+		
+		System.out.println("Enter your test grade:");
 		Scanner in11111111 = new Scanner(System.in);
 		float grade8 = in11111111.nextFloat();
 
@@ -73,12 +73,12 @@ public class Pset2 {
 
 	public void groupUs() {
 		System.out.println();
-		System.out.println("How Many Students Are Attending The Field Trip?");
+		System.out.println("How many students are attending the field trip?");
 		Scanner in = new Scanner(System.in);
 		int people = in.nextInt();
 		System.out.println();
 
-		System.out.println("How Many Teachers Are Attending The Trip");
+		System.out.println("How many teachers are attending the trip?");
 		Scanner in1 = new Scanner(System.in);
 		int teachers = in1.nextInt();
 		if (people + teachers <= 46 )
@@ -104,27 +104,27 @@ public class Pset2 {
 
 	public void info() {
 		System.out.println();
-		System.out.println("What Is your First Name?");
+		System.out.println("What is your first name?");
 		Scanner in = new Scanner(System.in);
 		String name = in.nextLine();
 		System.out.println();
 
-		System.out.println("What Is your Last Name?");
+		System.out.println("What is your last name?");
 		Scanner in1 = new Scanner(System.in);
 		String last = in1.nextLine();
 		System.out.println();
 
-		System.out.println("What Is your Grade Level?");
+		System.out.println("What is your grade level?");
 		Scanner in11 = new Scanner(System.in);
 		int level = in11.nextInt();
 		System.out.println();
 
-		System.out.println("What Is your Age?");
+		System.out.println("What is your age?");
 		Scanner in111 = new Scanner(System.in);
 		int age = in111.nextInt();
 		System.out.println();
 
-		System.out.println("What Is your Hometown?");
+		System.out.println("What is your hometown?");
 		Scanner in1111 = new Scanner(System.in);
 		String town = in1111.nextLine();
 		System.out.println();
